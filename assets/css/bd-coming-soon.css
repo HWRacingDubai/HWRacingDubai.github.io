@@ -1,6 +1,6 @@
 body {
   font-family: 'Karla', sans-serif;
-  background-image: url("../images/bg.jpg");
+  background-color: rgb(27, 42, 57);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-brand img {
-  height: 200px;
+  height: 7%;
 }
 
 .navbar-dark {
