@@ -1,6 +1,6 @@
 body {
   font-family: 'Karla', sans-serif;
-  background-color: rgb(27, 42, 57);
+  background-image: url("assets\images\bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
