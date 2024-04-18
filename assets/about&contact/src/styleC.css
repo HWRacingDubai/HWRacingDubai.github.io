@@ -59,6 +59,14 @@ a:hover {
     transition: .5s;
 }
 
+.sec1 {
+    background-image: url(assets\images\bg.jpg);
+    background-attachment: fixed;
+    height: 100%;
+
+    width: 100%;
+}
+
 .footer {
     color: #ffffff;
     background-color: #1B2A39;
