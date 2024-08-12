@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+.poster {
+    width: 100%;
+}
+
+.poster img {
+    width: 100%;
+}
+
+.intro {
+    text-align: center;
+    margin: 30px 50px;
+    font-size: 28px;
+    font-family: sans-serif;
+
+}
+
+.sections {
+    display: flex;
+    margin: 10px 80px;
+    justify-content: space-between;
+}
+
+.sections div {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.sections div img {
+    margin: 20px 0;
+}
+
+.sections div p:first-of-type {
+    text-align: center;
+
+}
+
+.section div div {
+    width: 100%;
+}
+
+.dicription {
+    height: 70%;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 100;
+
+}
+
+.button-link {
+
+    background-color: #f0f0f0;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 10px 5px;
+    margin: 10px 0;
+    width: auto;
+
+
+}
+
+.button-link:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.partners {
+    background-color: #283E54;
+    margin-top: 40px;
+}
+
+.partners h3 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 30px 0;
+    color: white;
+}
+
+.partners img {
+    width: 20%;
+}
+
+.sponsers {
+    display: flex;
+    flex-wrap: nowrap;
+}
