@@ -16,14 +16,15 @@
 <body>
     <!---NAVIGATION src: https://www.simplilearn.com/tutorials/html-tutorial/link-css-files-to-html#:~:text=To%20link%20the%20CSS%20to,like%20the%20image%20displayed%20below%3A&text=Let's%20look%20at%20another%20example,the%20CSS%20and%20HTML%20files.-->
     <nav>
-        <a href="../../../index.html"><img class="logo" src="../imgs/logo.png"></a>
+        <a href="index.html"><img class="logo" src="../../imgs/logo.png"></a>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a class="active" href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <div class="cover parallax">
+    <div class="cover">
+        <div class="parallax"></div>
         <!--<img src="../imgs/aboutCoverOverlay.png">-->
         <div class="coverText">
             <h1>About Us</h1>
@@ -32,11 +33,10 @@
 
     <div class="sec1">
         <h2>We are the Heriot-Watt University Dubai’s official team for the Formula Student racing competition.</h2>
-        <ul>
-            <li><img src="../imgs/hwrLogo2.png"></li>
-            <li><img src="../imgs/hw.png"> </li>
-            <li><img src="../imgs/sF.png"> </li>
-        </ul>
+        <img src="../../imgs/hw.png">
+        <img src="../../imgs/sF.png">
+        <img src="../../imgs/hwrLogo2.png">
+
     </div>
     <div class="sec2">
         <div class="sec2Flex one">
@@ -82,10 +82,10 @@
             </p>
         </div>
         <div class="imgList">
-            <img src="../imgs/sdgImgs/E_GIF_04.gif">
-            <img src="../imgs/sdgImgs/E_GIF_05.gif">
-            <img src="../imgs/sdgImgs/E_GIF_09.gif">
-            <img src="../imgs/sdgImgs/E_GIF_12.gif">
+            <img src="../../imgs/sdgImgs/E_GIF_04.gif">
+            <img src="../../imgs/sdgImgs/E_GIF_05.gif">
+            <img src="../../imgs/sdgImgs/E_GIF_09.gif">
+            <img src="../../imgs/sdgImgs/E_GIF_12.gif">
         </div>
         <ul>
             <li>
@@ -112,9 +112,9 @@
     <div class="sec4">
         <h3>Keep Up With Our Activities via Social Media</h3>
         <div class="socialPosts">
-            <a href="https://www.instagram.com/hwrdxb/"> <img src="../imgs/socialPosts1.png" height="250px"></a>
-            <a href="https://www.instagram.com/hwrdxb/"> <img src="../imgs/socialPosts2.png" height="250px"></a>
-            <a href="https://www.instagram.com/hwrdxb/"> <img src="../imgs/socialPosts3.png" height="250px"></a>
+            <a href="https://www.instagram.com/hwrdxb/"> <img src="../../imgs/socialPosts1.png" height="250px"></a>
+            <a href="https://www.instagram.com/hwrdxb/"> <img src="../../imgs/socialPosts2.png" height="250px"></a>
+            <a href="https://www.instagram.com/hwrdxb/"> <img src="../../imgs/socialPosts3.png" height="250px"></a>
 
         </div>
     </div>
@@ -139,8 +139,8 @@
         </div>
     </div>
     <div class="last">
-        <p>Designed by ✨The amazing Tech Team✨of HWRacing Dubai.</p>
-        <p>©All Rights Reserved by HWRacing Dubai, 2024.</p>
+        <p id="byLine">Designed by ✨The amazing Tech Team✨of HWRacing Dubai.</p>
+        <p id="rights">©All Rights Reserved by HWRacing Dubai, 2024.</p>
     </div>
 </body>
 
