@@ -4,47 +4,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HWRacing Dubai</title>
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="coming_soon/bd-coming-soon.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
-<body class="min-vh-100 d-flex flex-column">
+<body>
+    <!---NAVIGATION src: https://www.simplilearn.com/tutorials/html-tutorial/link-css-files-to-html#:~:text=To%20link%20the%20CSS%20to,like%20the%20image%20displayed%20below%3A&text=Let's%20look%20at%20another%20example,the%20CSS%20and%20HTML%20files.-->
+    <nav>
+        <a href="index.html"><img class="logo" src="/imgs/logo.png"></a>
+        <ul>
+            <li><a style="text-decoration: underline;" href="index.html">Home</a></li>
+            <li><a style="text-decoration: none;" href="src/html/about.html">About Us</a></li>
+            <li><a style="text-decoration: none;" href="src/html/contact.html">Contact</a></li>
+            <!-- Had to manually remove text decor for non-active pages form here idk why it kept coming up -->
+        </ul>
+    </nav>
 
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-dark bg-transparenet">
-                <a class="navbar-brand" href="index.html">
-                    <img src="coming_soon/logo.png" alt="logo">
+
+    <!-- poster -->
+
+    <div class="poster">
+        <img src="/imgs/homeCover.png" alt="">
+    </div>
+
+    <!-- main parts -->
+    <div class="sec1">
+        <div class="intro">
+            <p>Welcome to HWRacing Dubai official team for the Formula Student racing competition.</p>
+        </div>
+
+        <div class="sections">
+            <div>
+                <p class="headers">What is HWRacing Dubai?</p>
+                <img src="imgs/images/2.jpg" alt="">
+                <p class="dicription">
+                    We are HWRacing, Heriot-Watt University's formula student team. Each year we design and build a
+                    single-seat open-wheel racing car and enter it into the formula student competition at Silverstone.
+                </p>
+
+                <a <button class="button-28" href="src/html/about.html">About Us</button></a>
+
+            </div>
+
+            <div>
+                <p class="headers">Formula Student</p>
+                <img src="imgs/images/3.jpg" alt="">
+                <p class="dicription">
+                    15 members from our team head to the Silverstone Circuit from the 17th to the 21st of July, 2024, to
+                    compete in Formula Student's concept class to showcase the concept of 2025's challenger, where we
+                    will
+                    go head-to-head against some of the best university teams in the world.
+                </p>
+
+                <a><button class="button-28" href="src/about.html">FS-24</button>
                 </a>
-                <div style="align-items: end;">
-                    <span class="navbar-text d-none d-sm-inline-block">hwracingdubai@hw.ac.uk</span>
-                    <span class="navbar-text d-none d-sm-inline-block"> <a href="src/html/about.html"
-                            style="color: #DEA018;">About Us</a></span>
-                    <span class="navbar-text d-none d-sm-inline-block"> <a href="src\html\contact.html"
-                            style="color: #DEA018;">Contact</a></span>
-                </div>
 
-            </nav>
+            </div>
+
+            <div>
+                <p class="headers">Heriot-Watt University Dubai</p>
+                <img src="imgs/images/hw.jpg" alt="">
+                <p class="dicription">
+                    The OUR team consists of around 40 students from across the Heriot Watt University Dubai. We are
+                    proud
+                    to be supported by the University’s world-leading Department of Engineering Science, which you can
+                    learn
+                    more about via the link below.
+                </p>
+
+                <a> <button class="button-28" href="src/html/about.html">Heriot-Watt university</button></a>
+
+
+            </div>
         </div>
-    </header>
-    <main class="my-auto">
-        <div class="container">
-            <h1 class="page-title">We're coming soon!</h1>
+    </div>
 
-            <p>Stay connected</p>
-            <nav class="footer-social-links">
-                <a href="https://www.instagram.com/hwrdxb/?img_index=1" class="social-link"><i
-                        class="mdi mdi-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/hwracing-dubai" class="social-link"><i
-                        class="mdi mdi-linkedin"></i></a>
 
-            </nav>
+    <!-- partners -->
+
+    <div class="partners">
+        <h3 class="headers">Empowering Partnerships: Our Sponsors' Spotlight</h3>
+        <div class="sponsers">
+
+            <img src="../../imgs/images/HeriotWatt.png" alt="">
+            <img src="../../imgs/images/5qqJabuC2mMkUVZ0uiCeLHJkr451691503848085_200x200.png" alt="">
+            <img src="../../imgs/images/SolidWorks-Logo.png" alt="">
+            <img src="../../imgs/images/OCEAN_WAVE_LOGO.jpg.webp" alt="">
+
         </div>
-    </main>
+    </div>
+
+    <!-- Footer-->
+    <div class="footer">
+
+        <div class="footerItem">
+            <h2>Collaborate</h2>
+            <p>If you would like to sponsor us or collaborate, please get in touch and we will be happy to
+                provide further information on how it works. </p>
+            <a href="index.html"><button class="button-29">Learn More</button></a>
+        </div>
+        <div class="footerItem">
+            <h2>Connect</h2>
+            <p>Keep up to date with our activities, events and opportunities via our social media platforms.</p>
+        </div>
+        <div class="footerItem">
+            <h2>Contact</h2>
+            <p>We are always happy to hear from you, whether you’re looking to get involved, seeking further information
+                or even simply saying hello! </p>
+            <a href="src/html/contact.html"><button class="button-29">Contact Us</button></a>
+        </div>
+    </div>
+    <div class="last">
+        <p id="byLine">Designed by ✨The amazing Tech Team✨of HWRacing Dubai.</p>
+        <p id="rights">©All Rights Reserved by HWRacing Dubai, 2024.</p>
+    </div>
 </body>
 
 </html>

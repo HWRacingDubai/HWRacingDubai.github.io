@@ -58,13 +58,12 @@ a:hover {
 
 .sec1 {
     width: 100%;
-    margin: 10vh 5vh 10vh 5vh;
+    margin: 10vh 0;
+    padding-left: 10vh;
     color: #ffffff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 3px solid rgb(217, 113, 113);
-
 }
 
 .heading {
@@ -72,14 +71,11 @@ a:hover {
     display: flexbox;
     margin: 10px;
     width: 500px;
-    border: 3px solid rgb(126, 189, 81);
 }
 
 .map {
     display: flexbox;
     padding-right: 70px;
-    border: 3px solid red;
-
 }
 
 .map iframe {
@@ -154,8 +150,9 @@ p {
     }
 
     .sec1 {
-        margin: 8vh 2vh 8vh 2vh;
-        width: 95%;
+        margin: 8vh 5vh 8vh 2vh;
+        padding-left: 0;
+        padding-right: 2vh;
 
     }
 
@@ -217,7 +214,7 @@ p {
         font-size: 20px;
     }
 
-    @media (max-width:1130px) {}
+
 
 }
 
