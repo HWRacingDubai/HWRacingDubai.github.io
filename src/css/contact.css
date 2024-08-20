@@ -13,13 +13,7 @@ body {
     background-color: #1B2A39;
 }
 
-/*Not adapted for mobile versions currently*/
-@media only screen and (max-width: 1300px) {
-    body {
-        background-color: lightblue;
-    }
 
-}
 
 nav {
     background: #1B2A39;
@@ -63,55 +57,68 @@ a:hover {
 }
 
 .sec1 {
-    position: relative;
-    padding-left: 10rem;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    width: 100%;
+    margin: 10vh 5vh 10vh 5vh;
     color: #ffffff;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 3px solid rgb(217, 113, 113);
+
 }
 
 .heading {
+    margin: 10vh;
+    display: flexbox;
     margin: 10px;
     width: 500px;
+    border: 3px solid rgb(126, 189, 81);
 }
 
 .map {
-    border-radius: 50%;
-    margin-right: -200px;
-    margin-left: 100px;
-
+    display: flexbox;
+    padding-right: 70px;
+    border: 3px solid red;
 
 }
 
+.map iframe {
+    position: relative;
+    /* or absolute, fixed, etc. */
+    z-index: 2;
+}
+
 #yellow {
-    position: absolute;
-    bottom: 35%;
-    left: 95%;
-    z-index: -1000;
+    position: relative;
+    /* or absolute, fixed, etc. */
+    z-index: 1;
+    /* z-index: -1000; */
     height: 400px;
     width: 300px;
     background-color: #DEA018;
     border-radius: 25px;
-
+    margin: -550px 0 0 400px;
 }
 
 .footer {
     color: #ffffff;
+    margin: 0 auto;
     background-color: #1B2A39;
     height: auto;
     display: flex;
-    padding-left: 10rem;
-    padding-right: 10rem;
     padding-top: 2rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
     box-shadow: 0px -10px 30px 12px rgba(0, 0, 0, 0.386);
+    flex-wrap: wrap;
 }
 
 .footerItem {
-    margin-left: 3rem;
+    margin: 0 auto;
+    padding: 0 2vh;
     text-align: center;
     width: 22rem;
+    display: flexbox;
+
 }
 
 .footerItem h2,
@@ -129,6 +136,51 @@ p {
     align-items: center;
     background-color: #efefef;
 }
+
+@media (max-width: 480px) {
+
+    .logo {
+        margin-left: 10%;
+        margin-top: 4%;
+    }
+
+    #byLine {
+        color: rgba(255, 255, 255, 0);
+    }
+
+    #rights {
+        position: absolute;
+        margin: 0 auto
+    }
+
+    .sec1 {
+        margin: 8vh 2vh 8vh 2vh;
+        width: 95%;
+
+    }
+
+    .heading {
+        min-width: 300px;
+    }
+
+    .map iframe {
+        width: 330px;
+        height: 300px;
+        padding-left: 7%;
+    }
+
+    .map {
+        padding-right: 0px;
+    }
+
+    #yellow {
+        margin: -220px 0 0 160px;
+        height: 250px;
+        width: 200px;
+    }
+
+}
+
 
 @media (max-width: 952px) {
     label.logo {
@@ -165,7 +217,7 @@ p {
         font-size: 20px;
     }
 
-
+    @media (max-width:1130px) {}
 
 }
 
